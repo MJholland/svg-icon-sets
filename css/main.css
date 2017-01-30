@@ -1,5 +1,5 @@
 html {
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
 }
 
 section {
@@ -10,6 +10,27 @@ h1 {
   color: #fff;
 }
 
+li:first-child,
+li:nth-child(2) {
+  border-bottom: 3px solid rgba(255, 255, 255, .5);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .icon {
   color: #fff;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .7);
+}
+
+.btn:hover {
+  color: transparent;
+  border-color: rgba(255, 255, 255, .7);
+  background-color: transparent;
 }
